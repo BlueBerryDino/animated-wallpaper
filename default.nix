@@ -5,7 +5,7 @@ stdenv.mkDerivation {
   nativeBuildInputs = [
     wrapGAppsHook
   ];
-  buildInputs = with gnome3; with gst_all_1; [
+  buildInputs = with gnome; with gst_all_1; [
     cmake vala pkgconfig
     gtk3-x11 clutter-gtk
     clutter clutter-gst
